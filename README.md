@@ -89,37 +89,6 @@ pip install -r requirements.txt
 
 ---
 
-## 📂 Folder Structure
-
-```
-.
-├── 📚 Knowledge_base/          # Directory containing policy PDF documents
-├── 💾 embedding_store/         # Stores generated embeddings and metadata
-├── 🧼 preprocessing.py         # Code for preprocessing and embedding generation
-├── 🎨 main_app.py              # Streamlit-based chatbot application
-├── 📦 requirements.txt         # Required Python packages
-├── 🖼️ nust.jpg                 # Custom background image
-├── 📖 README.md                # Project description and setup guide
-```
-
----
-
-## 📦 Requirements
-
-- **🐍 Python**: 3.6+
-- **📦 Libraries:**
-  - `faiss`
-  - `streamlit`
-  - `sentence-transformers`
-  - `langchain`
-  - `pdfplumber`
-  - `scikit-learn`
-  - `numpy`
-  - `pandas`
-  - `ollama`
-
----
-
 ## 📊 Results
 
 - **🎯 Accuracy:** LLAMA 3.2 achieved the highest accuracy of **92%**.
