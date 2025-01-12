@@ -49,12 +49,20 @@ Ensure Python 3.6+ and the following libraries are installed:
    pip install -r requirements.txt
    ```
 
-3. **Run Preprocessing Code:**
+3. **Ensure Ollama is properly set up:**
+   - Download Ollama from the official site.
+   - Download a compatible LLM (e.g., `llama3, qwen2.5`) using the Ollama CLI:
+     ```bash
+     ollama pull llama3
+     ollama run llama3
+     ```
+
+4. **Run Preprocessing Code:**
    ```bash
    python preprocessing.py
    ```
 
-4. **Run the Chatbot Application:**
+5. **Run the Chatbot Application:**
    ```bash
    streamlit run main_app.py
    ```
