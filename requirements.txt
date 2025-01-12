@@ -7,3 +7,4 @@ pip install scikit-learn
 pip install numpy
 pip install pandas
 pip install ollama
+pip install langchain langchain-ollama ollama
