@@ -6,6 +6,16 @@ The **NUST Student Policy** Assistant is a custom knowledge-based chatbot develo
 
 ---
 
+## 🎨 GUI Preview
+![Streamlit GUI](assets/gui_screenshot.png)
+
+---
+
+## 📽️ Demo Video
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+
+---
+
 ## 🌟 Features
 
 - 📖 **Custom Knowledge Base:** Built from NUST Student Handbooks (Undergraduate, Postgraduate, MBBS).
@@ -14,6 +24,40 @@ The **NUST Student Policy** Assistant is a custom knowledge-based chatbot develo
 - 🛠️ **Multiple LLM Support:** Choose from LLaMA 3, LLaMA 3.1, LLaMA 3.2, QWEN 2.5, and Mistral.
 - 🖥️ **User-Friendly GUI:** Interactive Streamlit interface with model selection and query history.
 - 🔒 **Local Deployment:** No internet required for querying as embeddings and models are stored locally.
+
+---
+
+## 🛠️ Setup Instructions
+
+### 📦 Prerequisites
+
+Ensure Python 3.6+ and the following libraries are installed:
+
+- [Ollama](https://ollama.ai/) needs to be installed.
+- Large Language Models (LLMs) must be downloaded using the `ollama` command.
+
+### 📦 Setup Guide
+
+1. **Create a Virtual Environment:**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # For Windows use `venv\Scripts\activate`
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run Preprocessing Code:**
+   ```bash
+   python preprocessing.py
+   ```
+
+4. **Run the Chatbot Application:**
+   ```bash
+   streamlit run main_app.py
+   ```
 
 ---
 
@@ -48,44 +92,6 @@ The **NUST Student Policy** Assistant is a custom knowledge-based chatbot develo
 
    - 🖥️ Built using `Streamlit`.
    - 🎭 Custom styling and background.
-
----
-
-## 🛠️ Setup Instructions
-
-### 📦 Prerequisites
-
-Ensure Python 3.6+ and the following libraries are installed:
-
-- [Ollama](https://ollama.ai/) needs to be installed.
-- Large Language Models (LLMs) must be downloaded using the `ollama` command.
-
-```bash
-pip install -r requirements.txt
-```
-
-Ensure Python 3.6+ and the following libraries are installed:
-
-```bash
-pip install -r requirements.txt
-```
-
-### 🚀 Steps to Run
-
-1. 📥 Clone the repository:
-   ```bash
-   git clone <repo_url>
-   cd nust_chatbot
-   ```
-2. 📚 Place your PDF documents in the `Knowledge_base` directory.
-3. 🏗️ Run the preprocessing script to generate embeddings:
-   ```bash
-   python preprocessing.py
-   ```
-4. ▶️ Launch the chatbot application:
-   ```bash
-   streamlit run main_app.py
-   ```
 
 ---
 
