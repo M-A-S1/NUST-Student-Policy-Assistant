@@ -2,7 +2,7 @@
 
 ## 🧐 Overview
 
-The **NUST Student Policy** Assistant is a custom knowledge-based chatbot developed as part of a Machine Learning project. It utilizes advanced language models and embedding techniques to answer student queries related to the policies of the National University of Sciences and Technology (NUST). The chatbot retrieves precise and context-aware responses from the NUST Student Handbooks using both sentence and TF-IDF embeddings. The project uses **LangChain** and **Retrieval-Augmented Generation (RAG)** techniques to enhance response accuracy. While the current knowledge base includes NUST Student Handbooks, the chatbot can be adapted to work with any other document collection.
+The **NUST Student Policy** Assistant is a custom knowledge-based chatbot. It utilizes advanced language models and embedding techniques to answer student queries related to the policies of the National University of Sciences and Technology (NUST). The chatbot retrieves precise and context-aware responses from the NUST Student Handbooks using both sentence and TF-IDF embeddings. The project uses **LangChain** and **Retrieval-Augmented Generation (RAG)** techniques to enhance response accuracy. While the current knowledge base includes NUST Student Handbooks, the chatbot can be adapted to work with any other document collection.
 
 ---
 
@@ -126,7 +126,7 @@ This project is licensed under the MIT License.
 
 ## 📞 Contact
 
-- **👨‍💻 Authors:** Muhammad Ali Waqas Jahangir, Shayan Amjad
+- **👨‍💻 Authors:** Muhammad Ali, Waqas Jahangir, Shayan Amjad
 - **🏫 University:** NUST
 
 ---
