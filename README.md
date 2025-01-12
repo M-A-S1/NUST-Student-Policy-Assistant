@@ -12,7 +12,7 @@ The **NUST Student Policy** Assistant is a custom knowledge-based chatbot. It ut
 ---
 
 ## 📽️ Demo Video
-[![Watch the video](https://img.youtube.com/vi/-zkxLiT7z-A?si=4jvy7XFn75bGP9f/maxresdefault.jpg)](https://www.youtube.com/watch?v=-zkxLiT7z-A)
+[![Watch the video](https://img.youtube.com/vi/-zkxLiT7z-A/maxresdefault.jpg)](https://www.youtube.com/watch?v=-zkxLiT7z-A)
 
 ---
 
