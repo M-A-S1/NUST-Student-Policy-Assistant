@@ -1,0 +1,9 @@
+pip install faiss
+pip install streamlit
+pip install sentence-transformers
+pip install langchain
+pip install pdfplumber
+pip install scikit-learn
+pip install numpy
+pip install pandas
+pip install ollama
